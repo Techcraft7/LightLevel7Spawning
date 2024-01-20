@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.techcraft7.lightlevel7spawning.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "HostileEntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

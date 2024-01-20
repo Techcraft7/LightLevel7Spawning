@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "lightlevel7spawning",
+  "version": "${version}",
+  "name": "LightLevel7Spawning",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Techcraft7/LightLevel7Spawning"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/lightlevel7spawning/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "io.github.techcraft7.lightlevel7spawning.LightLevel7Spawning"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "mixins": [
+    "lightlevel7spawning.mixins.json"
+  ]
+}
