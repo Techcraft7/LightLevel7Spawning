@@ -10,7 +10,7 @@
   },
   "license": "All-Rights-Reserved",
   "icon": "assets/lightlevel7spawning/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "main": [
       "io.github.techcraft7.lightlevel7spawning.LightLevel7Spawning"
